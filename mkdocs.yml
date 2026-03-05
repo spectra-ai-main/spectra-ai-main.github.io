@@ -7,6 +7,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - navigation.grid
   version:
     provider: mike
 
