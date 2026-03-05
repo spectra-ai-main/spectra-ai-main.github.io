@@ -16,7 +16,9 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install mkdocs-material mike
+        run: |
+          # We pin MkDocs to avoid the 2.0 issues mentioned in your logs
+          pip install "mkdocs<2.0" mkdocs-material mike
 
       - name: Deploy to Latest
         run: |
