@@ -23,4 +23,6 @@ nav:
   - Physics:
       - physics/index.md
       - Chapter 1: physics/chapter-1.md
-  - Meet the Team: team.md
+  - About:
+      - About the Project: about.md
+      - Meet the Team: team.md

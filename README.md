@@ -13,6 +13,7 @@ This repository contains the source code for a multi-subject digital library bui
 │   ├── physics/             # Physics subject folder
 │   ├── index.md             # The main library homepage
 │   ├── team.md              # "Meet the Team" page
+    ├── about.md             # "About the Project" page
 │   └── robots.txt           # Prevents Google from indexing the Sandbox
 ├── mkdocs.yml               # Site configuration (Brain of the site)
 └── requirements.txt         # Python dependencies (MkDocs, Mike, etc.)
