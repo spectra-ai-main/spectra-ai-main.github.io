@@ -1,0 +1,21 @@
+site_name: The Knowledge Atlas
+theme:
+  name: material
+  palette:
+    primary: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+  version:
+    provider: mike
+
+nav:
+  - Home: index.md
+  - Biology:
+      - biology/index.md
+      - Chapter 1: biology/chapter-1.md
+  - Physics:
+      - physics/index.md
+      - Chapter 1: physics/chapter-1.md
+  - Meet the Team: team.md

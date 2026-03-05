@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /v-92x-beta/  # Replace with your secret folder name
