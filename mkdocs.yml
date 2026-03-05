@@ -11,6 +11,10 @@ theme:
   version:
     provider: mike
 
+markdown_extensions:
+  - attr_list      # Required to recognize the "grid cards" class
+  - md_in_html     # Required to process Markdown inside the <div>
+  
 nav:
   - Home: index.md
   - Biology:
