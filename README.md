@@ -2,7 +2,7 @@
 This repository contains the source code for a multi-subject digital library built with MkDocs and the Material for MkDocs theme. It uses a Ghost Deployment strategy to maintain a public production site and a hidden User Acceptance Testing (UAT) environment.
 
 📂 File Structure Overview 
-
+```
 .
 ├── .github/workflows/       # GitHub Actions (The Automation Engines)
 │   ├── deploy-prod.yml      # Pushes to the public /latest/ folder
@@ -16,9 +16,10 @@ This repository contains the source code for a multi-subject digital library bui
 │   └── robots.txt           # Prevents Google from indexing the Sandbox
 ├── mkdocs.yml               # Site configuration (Brain of the site)
 └── requirements.txt         # Python dependencies (MkDocs, Mike, etc.)
-
+```
 
 🚀 How to Deploy
+
 To Production: Simply push your changes to the main branch.
 To Sandbox: Push your changes to the uat branch.
 
