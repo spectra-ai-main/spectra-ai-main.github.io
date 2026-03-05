@@ -22,4 +22,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          mike deploy --push --set-default latest
+          # 1. Create the 'latest' version
+          mike deploy --push latest
+          # 2. Tell the site that 'latest' is the homepage
+          mike set-default --push latest
