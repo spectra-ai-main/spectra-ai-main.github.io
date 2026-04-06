@@ -1,1 +1,1 @@
-# :octicons-info-24: About the Project
+# About

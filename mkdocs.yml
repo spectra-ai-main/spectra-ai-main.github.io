@@ -16,6 +16,9 @@ theme:
     - navigation.sections        # Left sidebar grouping
     - navigation.expand          # Expands left menu by default
     - navigation.indexes         # Allows clicking on parent chapters
+    - navigation.instant          # Fetches pages via AJAX without full page reloads
+    - navigation.tracking         # Keeps sidebar scroll position intact
+    
     - toc.follow                 # Right sidebar highlights upon scroll
     - content.code.copy          # Copy button on code blocks
   
