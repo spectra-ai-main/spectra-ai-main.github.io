@@ -1,19 +1,31 @@
-site_name: The Knowledge Atlas
+site_name: Spectra.ai
 theme:
   name: material
   palette:
-    primary: indigo
+    primary: custom
+    accent: custom
+    
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.indexes
-    - navigation.grid
+    - navigation.tabs            # Horizontal top menu
+    - navigation.tabs.sticky     # Keeps top menu visible
+    - navigation.sections        # Left sidebar grouping
+    - navigation.expand          # Expands left menu by default
+    - navigation.indexes         # Allows clicking on parent chapters
+    - toc.follow                 # Right sidebar highlights upon scroll
+    - content.code.copy          # Copy button on code blocks
+
+  extra:
+    css:
+      - assets/custom.css
+  
   version:
     provider: mike
 
 markdown_extensions:
   - attr_list      # Required to recognize the "grid cards" class
   - md_in_html     # Required to process Markdown inside the <div>
+  - admonition     # Create highly visible, colored callout boxes
+  - pymdownx.superfences    # Nesting and Custom UI widgets
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
