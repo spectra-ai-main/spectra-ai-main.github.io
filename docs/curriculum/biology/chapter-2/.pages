@@ -1,0 +1,5 @@
+nav:
+  - Introduction: index.md
+  - Genetics and DNA: section-1.md
+  - Protein Synthesis: section-2.md
+  - Cell Division: section-3.md

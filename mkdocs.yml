@@ -25,6 +25,9 @@ version:
 extra_css:
   - assets/custom.css
 
+plugins:
+  - awesome-pages
+
 markdown_extensions:
   - attr_list      # Required to recognize the "grid cards" class
   - md_in_html     # Required to process Markdown inside the <div>
@@ -34,22 +37,27 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   
-nav:
-  - Home: index.md
-  - About:
-    - About the Project: about/index.md
-    - Meet the Team: about/team.md
-  - Curriculum:
-    - Biology:
-      - Overview: curriculum/biology/index.md
-      - Chapter 1: 
-        - Introduction: curriculum/biology/chapter-1/index.md
-        - Cellular Structure: curriculum/biology/chapter-1/section-1.md
-        - Metabolism: curriculum/biology/chapter-1/section-2.md
-        - Mitochondria: curriculum/biology/chapter-1/section-3.md
+# nav:
+#   - Home: index.md
+#   - About:
+#     - About the Project: about/index.md
+#     - Meet the Team: about/team.md
+#   - Curriculum:
+#     - Biology:
+#       - Overview: curriculum/biology/index.md
+#       - Chapter 1: 
+#         - Introduction: curriculum/biology/chapter-1/index.md
+#         - Cellular Structure: curriculum/biology/chapter-1/section-1.md
+#         - Metabolism: curriculum/biology/chapter-1/section-2.md
+#         - Mitochondria: curriculum/biology/chapter-1/section-3.md
 
-      - Chapter 2:
-        - Introduction: curriculum/biology/chapter-2/index.md
-        - Genetics and DNA: curriculum/biology/chapter-2/section-1.md
-        - Protein Synthesis: curriculum/biology/chapter-2/section-2.md
-        - Cell Division: curriculum/biology/chapter-2/section-3.md
+#       - Chapter 2:
+#         - Introduction: curriculum/biology/chapter-2/index.md
+#         - Genetics and DNA: curriculum/biology/chapter-2/section-1.md
+#         - Protein Synthesis: curriculum/biology/chapter-2/section-2.md
+#         - Cell Division: curriculum/biology/chapter-2/section-3.md
+
+# nav:
+#   - Home: index.md        # This is the Overview
+#   - About: chapter-1       # The plugin knows to look inside this folder
+#   - chapter-2
