@@ -1,2 +1,9 @@
 User-agent: *
-Disallow: /v-92x-beta/  # Replace with your secret folder name
+
+# Block access to sandbox folder
+Disallow: /v-92x-beta/
+Disallow: /uat/
+
+# Allow access to everything else
+Allow: /latest/
+Allow: /
