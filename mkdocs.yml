@@ -15,12 +15,11 @@ theme:
     - toc.follow                 # Right sidebar highlights upon scroll
     - content.code.copy          # Copy button on code blocks
   
-extra:
-  version:
-    provider: mike
+version:
+  provider: mike
 
-  css:
-    - assets/custom.css
+extra_css::
+  - assets/custom.css
 
 markdown_extensions:
   - attr_list      # Required to recognize the "grid cards" class
