@@ -1,0 +1,60 @@
+/* Custom CSS to mimic the AI Safety Atlas aesthetic */
+
+:root {
+  /* AI Safety Atlas exact/similar color hexes */
+  --md-primary-fg-color: #0d2137;      /* Deep navy header */
+  --md-primary-fg-color--dark: #05101c;
+  --md-accent-fg-color: #1b4965;       /* Muted blue for links */
+  
+  /* Backgrounds */
+  --md-default-bg-color: #ffffff;      /* Pure white main content */
+  --md-default-fg-color: #2b3a4a;      /* Soft dark text (not harsh black) */
+  
+  /* Sidebar backgrounds - AI Safety Atlas uses soft grays to separate panels */
+  --md-sidebar-bg-color: #f7f9fa; 
+}
+
+/* 1. Style the left and right sidebars with a soft gray background */
+.md-sidebar--primary, .md-sidebar--secondary {
+    background-color: #f8fafc;
+    border-right: 1px solid #e2e8f0;
+    border-left: 1px solid #e2e8f0;
+}
+
+/* 2. Remove default heavy drop shadows for a flatter, modern, academic look */
+.md-header {
+    box-shadow: none;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.md-tabs {
+    box-shadow: none;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* 3. Style navigation links in the sidebar to look clean and active */
+.md-nav__link--active {
+    color: var(--md-accent-fg-color) !important;
+    font-weight: 600;
+}
+
+/* 4. Make Grid Cards match the flat look instead of heavy cards */
+.grid.cards > ul > li, .grid.cards > ol > li {
+    border: 1px solid #e2e8f0;
+    box-shadow: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.grid.cards > ul > li:hover, .grid.cards > ol > li:hover {
+    border-color: var(--md-accent-fg-color);
+    transform: translateY(-2px);
+}
+
+/* 5. Clean up typography (using standard clean sans-serif stack) */
+body, input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+code, kbd, pre {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
