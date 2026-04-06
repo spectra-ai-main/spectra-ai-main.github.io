@@ -1,7 +1,6 @@
 /* Custom CSS to mimic the AI Safety Atlas aesthetic */
 
 :root {
-  /* AI Safety Atlas exact/similar color hexes */
   --md-primary-fg-color: #0d2137;      /* Deep navy header */
   --md-primary-fg-color--dark: #05101c;
   --md-accent-fg-color: #1b4965;       /* Muted blue for links */
@@ -10,7 +9,7 @@
   --md-default-bg-color: #ffffff;      /* Pure white main content */
   --md-default-fg-color: #2b3a4a;      /* Soft dark text (not harsh black) */
   
-  /* Sidebar backgrounds - AI Safety Atlas uses soft grays to separate panels */
+  /* Sidebar backgrounds - soft grays to separate panels */
   --md-sidebar-bg-color: #f7f9fa; 
 }
 
