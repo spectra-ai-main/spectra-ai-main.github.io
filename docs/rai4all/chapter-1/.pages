@@ -1,5 +1,8 @@
+title: 1. Foundations & The Transformer Revolution
+
 nav:
   - Introduction: index.md
-  - Cellular Structure: section-1.md
-  - Metabolism: section-2.md
-  - Mitochondria: section-3.md
+  - 1.1. Attention Mechanism: section-1.md
+  - 1.2. Scaling Laws: section-2.md
+  - 1.3. Fine-Tuning: section-3.md
+  - 1.4. Alternative Architectures: section-4.md

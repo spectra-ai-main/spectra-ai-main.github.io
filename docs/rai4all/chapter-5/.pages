@@ -1,0 +1,8 @@
+title: 5. Towards AI Safety & Alignment
+
+nav:
+  - Introduction: index.md
+  - 5.1. Misalignment & Reward Hacking: section-1.md
+  - 5.2. Scheming & Deception: section-2.md
+  - 5.3. Sandbagging & Capability Hiding: section-3.md
+  - 5.4. Red Teaming: section-4.md
