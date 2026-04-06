@@ -15,7 +15,7 @@
 }
 
 /* 1. Style the left and right sidebars with a soft gray background */
-.md-sidebar--primary, .md-sidebar--secondary {
+.md-sidebar--primary {
     background-color: #f8fafc;
     border-right: 1px solid #e2e8f0;
     border-left: 1px solid #e2e8f0;
