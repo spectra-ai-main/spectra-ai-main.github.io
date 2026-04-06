@@ -2,6 +2,7 @@ site_name: Spectra.ai
 theme:
   name: material
   palette:
+    scheme: default
     primary: custom
     accent: custom
     
