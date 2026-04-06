@@ -19,6 +19,8 @@ jobs:
         run: |
           # We pin MkDocs to avoid the 2.0 issues mentioned in your logs
           pip install "mkdocs<2.0" mkdocs-material mike
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Deploy to Latest
         run: |
