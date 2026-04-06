@@ -14,10 +14,10 @@ theme:
     - toc.follow                 # Right sidebar highlights upon scroll
     - content.code.copy          # Copy button on code blocks
   
+extra:
   version:
     provider: mike
 
-extra:
   css:
     - assets/custom.css
 
