@@ -18,6 +18,7 @@
     background-color: #f8fafc;
     border-right: 1px solid #e2e8f0;
     border-left: 1px solid #e2e8f0;
+    box-shadow: none !important;
 }
 
 /* 2. Remove default heavy drop shadows for a flatter, modern, academic look */
