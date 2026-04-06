@@ -8,7 +8,7 @@ Our team is composed of passionate subject-matter experts and developers dedicat
 
 -   **Dr. Aris Thorne**
     ---
-    ![Aris Thorne](../assets/team/aris.jpg){ width="120" style="border-radius: 50%; margin-bottom: 10px;" }
+    <!-- ![Aris Thorne](../assets/team/aris.jpg){ width="120" style="border-radius: 50%; margin-bottom: 10px;" } -->
 
     *Lead Editor - Biology*
     
@@ -18,7 +18,7 @@ Our team is composed of passionate subject-matter experts and developers dedicat
 
 -   **Prof. Elena Vance**
     ---
-    ![Elena Vance](../assets/team/elena.jpg){ width="120" style="border-radius: 50%; margin-bottom: 10px;" }
+    <!-- ![Elena Vance](../assets/team/elena.jpg){ width="120" style="border-radius: 50%; margin-bottom: 10px;" } -->
 
     *Head of Physics*
     
@@ -28,7 +28,7 @@ Our team is composed of passionate subject-matter experts and developers dedicat
 
 -   **Technical Team**
     ---
-    ![Spectra AI](../assets/team/spectra.png){ width="120" style="border-radius: 50%; margin-bottom: 10px;" }
+    <!-- ![Spectra AI](../assets/team/spectra.png){ width="120" style="border-radius: 50%; margin-bottom: 10px;" } -->
 
     *Platform Architecture*
     

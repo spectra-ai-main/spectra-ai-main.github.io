@@ -20,12 +20,20 @@ markdown_extensions:
   
 nav:
   - Home: index.md
-  - Biology:
-      - biology/index.md
-      - Chapter 1: biology/chapter-1.md
-  - Physics:
-      - physics/index.md
-      - Chapter 1: physics/chapter-1.md
   - About:
-      - About the Project: about.md
-      - Meet the Team: team.md
+    - About the Project: about/index.md
+    - Meet the Team: about/team.md
+  - Curriculum:
+    - Biology:
+      - Overview: curriculum/biology/index.md
+      - Chapter 1: 
+        - Introduction: curriculum/biology/chapter-1/index.md
+        - Cellular Structure: curriculum/biology/chapter-1/section-1.md
+        - Metabolism: curriculum/biology/chapter-1/section-2.md
+        - Mitochondria: curriculum/biology/chapter-1/section-3.md
+
+      - Chapter 2:
+        - Introduction: curriculum/biology/chapter-2/index.md
+        - Genetics and DNA: curriculum/biology/chapter-2/section-1.md
+        - Protein Synthesis: curriculum/biology/chapter-2/section-2.md
+        - Cell Division: curriculum/biology/chapter-2/section-3.md
