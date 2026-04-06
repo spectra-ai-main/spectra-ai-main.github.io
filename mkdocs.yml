@@ -18,7 +18,7 @@ theme:
 version:
   provider: mike
 
-extra_css::
+extra_css:
   - assets/custom.css
 
 markdown_extensions:
