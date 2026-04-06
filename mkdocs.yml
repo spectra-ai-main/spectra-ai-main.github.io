@@ -13,13 +13,13 @@ theme:
     - navigation.indexes         # Allows clicking on parent chapters
     - toc.follow                 # Right sidebar highlights upon scroll
     - content.code.copy          # Copy button on code blocks
-
-  extra:
-    css:
-      - assets/custom.css
   
   version:
     provider: mike
+
+extra:
+  css:
+    - assets/custom.css
 
 markdown_extensions:
   - attr_list      # Required to recognize the "grid cards" class
