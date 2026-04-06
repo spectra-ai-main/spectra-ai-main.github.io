@@ -1,6 +1,10 @@
 site_name: Spectra.ai
 theme:
   name: material
+
+  icon:
+    logo: material/lighthouse
+
   palette:
     scheme: default
     primary: custom
