@@ -36,6 +36,8 @@ markdown_extensions:
   - md_in_html     # Required to process Markdown inside the <div>
   - admonition     # Create highly visible, colored callout boxes
   - pymdownx.superfences    # Nesting and Custom UI widgets
+  - pymdownx.tabbed:      # This helps with layout grouping
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

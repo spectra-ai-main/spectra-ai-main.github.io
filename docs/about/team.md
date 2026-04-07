@@ -2,24 +2,18 @@
 
 Meet the minds behind Spectra.ai.
 
-<div class="team-container">
+<div class="grid cards" markdown>
 
-  <div class="team-member">
-    <img src="/assets/team/alice.png" alt="Alice Smith">
-    <div class="team-name">Alice Smith</div>
-    <div class="team-role">Project Lead</div>
-  </div>
+-   ![Alice](../assets/team/alice.png){: .team-circle }
+    **Alice Smith**
+    Project Lead
 
-  <div class="team-member">
-    <img src="/assets/team/bob.png" alt="Bob Jones">
-    <div class="team-name">Bob Jones</div>
-    <div class="team-role">Curriculum Director</div>
-  </div>
+-   ![Bob](../assets/team/bob.png){: .team-circle }
+    **Bob Jones**
+    Curriculum Director
 
-  <div class="team-member">
-    <img src="/assets/team/charlie.png" alt="Charlie Brown">
-    <div class="team-name">Charlie Brown</div>
-    <div class="team-role">Lead Developer</div>
-  </div>
+-   ![Charlie](../assets/team/charlie.png){: .team-circle }
+    **Charlie Brown**
+    Lead Developer
 
 </div>
