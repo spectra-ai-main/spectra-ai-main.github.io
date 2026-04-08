@@ -4,16 +4,24 @@ Meet the minds behind Spectra.ai.
 
 <div class="grid cards" markdown>
 
--   ![Alice](../assets/team/alice.png){: .team-circle }
-    **Alice Smith**
-    Project Lead
+-   ![Jared](../assets/favicon.png){: .team-circle }
+    **Jared**
+    Lead AI Officer
 
--   ![Bob](../assets/team/bob.png){: .team-circle }
-    **Bob Jones**
-    Curriculum Director
+    Managing Co-founder
 
--   ![Charlie](../assets/team/charlie.png){: .team-circle }
-    **Charlie Brown**
-    Lead Developer
+-   ![Selene](../assets/favicon.png){: .team-circle }
+    **Selene**
+    Lead AI Strategist
+    
+    Co-founder
+
+-   ![Raghav](../assets/favicon.png){: .team-circle }
+    **Raghav**
+    Lead Curriculum Designer
+
+-   ![Nicholas](../assets/favicon.png){: .team-circle }
+    **Nicholas**
+    Advisor
 
 </div>

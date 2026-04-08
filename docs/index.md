@@ -15,7 +15,7 @@ A chain is only as strong as its weakest link. In modern organizational workflow
 ---
 
 ## Our Flagship Initiative: RAI4ALL
-To meet this challenge, we have launched **RAI4ALL**—an open-source, community-led initiative dedicated to AI Safety (AIS) and Responsible AI (RAI) education.
+To meet this challenge, we have launched **RAI4ALL**—an open-source, community-led initiative dedicated to AI Safety and Responsible AI education.
 
 ### Applied Literacy
 While existing programs often cater to technical researchers or policy specialists, RAI4ALL is designed for the everyday practitioner: the educators, leaders, and professionals who use AI daily.

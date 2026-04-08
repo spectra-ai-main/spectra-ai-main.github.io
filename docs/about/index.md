@@ -25,3 +25,5 @@ To ensure maximum accessibility and total impartiality, Spectra.AI follows a **N
 
 ## Our Commitment
 In a field where state-of-the-art evolves weekly, we prioritize a **"North Star"** of knowledge. Our curriculum intentionally prioritizes foundational methodologies and safety principles that have reached a level of relative permanence or are already deeply embedded in standard industry practice. We ensure the everyday AI practictioner is prepared for both today’s tools and tomorrow’s breakthroughs.
+
+---
