@@ -2,5 +2,7 @@ nav:
   - Home: index.md
   - About Us: about
   - RAI4ALL: rai4all
+  - Resources: resources.md
+  - People: people.md
   - Join Us: join-us.md
   - Contact: contact.md

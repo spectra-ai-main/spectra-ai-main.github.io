@@ -1,0 +1,2 @@
+# Our People
+We believe that AI Safety is a collective responsibility. The "safety chain" is only as strong as the individuals who build, teach, and audit these systems. This page is dedicated to the community of practitioners, researchers, and educators driving the mission forward.
