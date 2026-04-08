@@ -62,8 +62,18 @@ code, kbd, pre {
 
 /* Ensure the grid doesn't force images to 100% width */
 .grid.cards li {
+    display: flex;
+    flex-direction: column; /* Stacks everything vertically */
+    align-items: center;    /* Centers the stack */
     text-align: center;
-    list-style: none;
+}
+
+/* Ensure the text pieces stack */
+.grid.cards li strong, 
+.grid.cards li em,
+.grid.cards li span {
+    display: block; 
+    width: 100%;
 }
 
 .team-circle {
