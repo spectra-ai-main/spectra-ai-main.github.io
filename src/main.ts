@@ -30,27 +30,18 @@ function renderGallery(): void {
   const total = carouselSlidesData.length;
 
   track.innerHTML = carouselSlidesData
-    .map((slide, idx) => `
-      <article class="carousel-slide" aria-roledescription="slide" aria-label="${idx + 1} of ${total}">
+    .map((slide) => `
+      <article class="carousel-slide" aria-roledescription="slide">
         <div class="carousel-image-wrapper">
-          <img src="${slide.imageSrc}" alt="${slide.title}" loading="lazy">
+          <img src="${slide.imageSrc}" 
+          alt="${slide.title}" 
+          loading="lazy">
         </div>
         <div class="carousel-caption">
           <h3>${slide.title}</h3>
           <p>${slide.description}</p>
         </div>
       </article>
-    `).join('');
-
-  indicators.innerHTML = carouselSlidesData
-    .map((_, idx) => `
-      <button 
-        role="tab" 
-        aria-selected="${idx === 0 ? 'true' : 'false'}" 
-        aria-label="Slide ${idx + 1}" 
-        class="indicator ${idx === 0 ? 'active' : ''}" 
-        data-index="${idx}">
-      </button>
     `).join('');
 }
 
