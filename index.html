@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spectra — Responsible AI, Singapore</title>
+<meta name="description" content="Spectra is a grassroots Responsible AI community in Singapore — Crossroad Chatters, the RAIx Series, and Paper Trail technical sessions.">
+
+<meta property="og:title" content="Spectra — Responsible AI, Singapore">
+<meta property="og:description" content="A Responsible AI grassroots initiative towards a smarter, safer world.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="icon-luma" viewBox="0 0 24 24">
+    <rect x="3.5" y="5" width="17" height="15.5" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <path d="M8 3v4M16 3v4M3.5 9.5h17" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="8.5" cy="14" r="1.4" fill="currentColor"/>
+  </symbol>
+  <symbol id="icon-linkedin" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+  </symbol>
+  <symbol id="icon-telegram" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M21.05 3.66 2.87 10.74c-1.2.47-1.19 1.13-.22 1.42l4.66 1.46 1.8 5.6c.22.6.38.84.78.84.4 0 .58-.18.8-.4l1.9-1.85 4.03 2.98c.74.41 1.27.2 1.46-.68l2.64-12.5c.28-1.1-.4-1.6-1.66-1.1zM8.9 13.4 17.6 7.7c.42-.26.8-.12.49.17l-7.1 6.4-.29 3.1-1.3-3.9z"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="#top">
+      <span class="wordmark-dot" aria-hidden="true"></span>
+      Spectra
+    </a>
+    <nav class="site-nav" id="primary-nav" aria-label="Primary"></nav>
+    
+    <!-- Header Luma Button -->
+    <a class="btn btn-small btn-icon" data-link="luma">
+      <svg class="icon" aria-hidden="true"><use href="#icon-luma"/></svg>
+      Follow on Luma
+    </a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal">Responsible AI · Singapore · Grassroots</p>
+      <h1 class="reveal">A smarter, safer world starts in the room you're in.</h1>
+      <p class="hero-sub reveal">Spectra is a grassroots initiative for people thinking seriously about responsible AI in Singapore — researchers, builders, policymakers, and the curious, in the same room, regularly.</p>
+      <div class="spectrum-rule reveal" aria-hidden="true"></div>
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="#events">See upcoming events</a>
+        
+        <!-- Hero Telegram Button -->
+        <a class="btn btn-ghost btn-icon" data-link="telegram">
+          <svg class="icon" aria-hidden="true"><use href="#icon-telegram"/></svg>
+          Join the community
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mission-strip">
+    <div class="wrap">
+      <p class="reveal">No fixed venue. No paywall. Just Singapore's AI-curious, meeting on a regular rhythm — from casual chatter to policy-grade discussion.</p>
+    </div>
+  </section>
+
+  <section class="programs" id="programs">
+    <div class="wrap">
+      <p class="eyebrow reveal">What we run</p>
+      <h2 class="reveal">Three ways we get people talking</h2>
+      <div class="card-grid" id="programs-grid"></div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <p class="eyebrow reveal">Community Highlights</p>
+      <h2 class="reveal">Moments from past sessions</h2>
+      <p class="section-sub reveal">From technical paper reading groups to informal chats over coffee across Singapore.</p>
+
+      <div class="carousel-container reveal" aria-roledescription="carousel" aria-label="Spectra community photos">
+        <div class="carousel-track" id="carousel-track" tabindex="0"></div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn prev" id="carousel-prev" aria-label="Previous slide">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+
+          <div class="carousel-indicators" id="carousel-indicators" role="tablist" aria-label="Slide selection"></div>
+
+          <button class="carousel-btn next" id="carousel-next" aria-label="Next slide">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="events" id="events">
+    <div class="wrap">
+      <p class="eyebrow reveal">Upcoming</p>
+      <h2 class="reveal">Find the next one</h2>
+      <p class="section-sub reveal">Our full calendar lives on Luma — RSVP there and you'll never miss a session.</p>
+
+
+      <div class="luma-embed-container reveal">
+        <iframe
+          class="luma-embed-frame"
+          data-link="lumaEmbed"
+          src="https://luma.com/embed/calendar/cal-YBfMq4YAgqPzHfL/events"
+          title="Spectra events calendar on Luma"
+          loading="lazy"
+          allowfullscreen
+        ></iframe>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="affiliates" id="affiliates">
+    <div class="wrap">
+      <p class="eyebrow reveal">Affiliates</p>
+      <h2 class="reveal">What the ecosystem's running</h2>
+      <p class="section-sub reveal">A shared calendar of events from partners across Singapore's AI scene, pulled in from Airtable so it stays current without us maintaining it by hand.</p>
+
+      <div class="airtable-embed reveal">
+        <div class="embed-placeholder">
+          <span class="embed-placeholder-badge">Placeholder</span>
+          <p>This calendar isn't connected yet. Swap in your Airtable "Share → Embed" link in <code>index.html</code> to pull in affiliate events automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team" id="team">
+    <div class="wrap">
+      <p class="eyebrow reveal">Team</p>
+      <h2 class="reveal">Who's behind it</h2>
+      <p class="section-sub reveal">Placeholder profiles below — swap in real names, roles, and photos when ready.</p>
+
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+  </section>
+
+  <section class="community-cta" id="community">
+    <div class="wrap">
+      <h2 class="reveal">Come as you are.</h2>
+      <p class="reveal">Follow on Luma to catch the next session, or drop into Telegram to say hi.</p>
+      <div class="cta-actions reveal">
+        <!-- Community Section CTA Links -->
+        <a class="btn btn-primary btn-icon" data-link="luma">
+          <svg class="icon" aria-hidden="true"><use href="#icon-luma"/></svg>
+          Follow on Luma
+        </a>
+        <a class="btn btn-outline btn-icon" data-link="telegram">
+          <svg class="icon" aria-hidden="true"><use href="#icon-telegram"/></svg>
+          Telegram
+        </a>
+        <a class="btn btn-outline btn-icon" data-link="linkedin">
+          <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <a class="wordmark" href="#top">
+        <span class="wordmark-dot" aria-hidden="true"></span>
+        Spectra
+      </a>
+      <p class="footer-tagline">A Responsible AI grassroots initiative towards a smarter, safer world.</p>
+    </div>
+
+    <nav class="footer-nav" id="footer-nav" aria-label="Footer"></nav>
+
+    <div class="footer-socials">
+      <!-- Footer Links -->
+      <a class="link-icon" data-link="luma">
+        <svg class="icon" aria-hidden="true"><use href="#icon-luma"/></svg>
+        Luma
+      </a>
+      <a class="link-icon" data-link="telegram">
+        <svg class="icon" aria-hidden="true"><use href="#icon-telegram"/></svg>
+        Telegram
+      </a>
+      <a class="link-icon" data-link="linkedin">
+        <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year"></span> Spectra · Singapore</p>
+  </div>
+</footer>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
