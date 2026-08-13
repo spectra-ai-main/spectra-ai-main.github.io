@@ -4,7 +4,10 @@
   "description": "A single-page site for Spectra (Responsible AI, Singapore), styled after the Lorong AI template: dark hero, mission strip, a \"what we run\" card grid, a live Luma events embed, and a community CTA. Plain HTML/CSS/JS — no build step, no dependencies beyond Google Fonts.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
