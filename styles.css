@@ -110,7 +110,7 @@ a { color: inherit; text-decoration: none; }
 .wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.5rem;            /* Space between favicon and "Spectra" text */
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.15rem;
@@ -118,11 +118,11 @@ a { color: inherit; text-decoration: none; }
   color: var(--ink);
 }
 
-.wordmark-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: var(--gradient-main);
+/* Favicon inside wordmark */
+.wordmark-icon {
+  width: 22px;            /* Match your header text height */
+  height: 22px;
+  object-fit: contain;   /* Prevents icon stretching */
   flex-shrink: 0;
 }
 
