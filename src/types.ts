@@ -17,6 +17,7 @@ export interface CarouselSlide {
 export interface TeamMember {
   name: string;
   role: string;
-  initials: string;
   bio: string;
+  imageSrc: string;
+  linkedin: string;
 }

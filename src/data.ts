@@ -26,22 +26,22 @@ export const programsData: Program[] = [
 
 export const carouselSlidesData: CarouselSlide[] = [
   {
-    imageSrc: '/images/crossroad-chatters-fireside.jpg',
+    imageSrc: '/images/events/crossroad-chatters-fireside.jpg',
     title: 'Fireside Focus Group',
     description: 'Fireside style focus groups.'
   },
   {
-    imageSrc: '/images/paper-trail-anthropic.jpg',
+    imageSrc: '/images/events/paper-trail-anthropic.jpg',
     title: 'Paper Trail Anthropic',
     description: 'Working through research papers and blogs.'
   },
   {
-    imageSrc: '/images/paper-trail-deepseek.jpg',
+    imageSrc: '/images/events/paper-trail-deepseek.jpg',
     title: 'Paper Trail DeepSeek',
     description: 'Working through research papers and blogs.'
   },
   {
-    imageSrc: '/images/crossroad-chatters-02.jpg',
+    imageSrc: '/images/events/crossroad-chatters-02.jpg',
     title: 'Crossroad Chatters',
     description: 'Casual discussions on emerging Responsible AI topics and trends.'
   }
@@ -49,23 +49,47 @@ export const carouselSlidesData: CarouselSlide[] = [
 
 export const teamMembersData: TeamMember[] = [
   {
-    name: 'Name Surname',
-    role: 'Founder & Organizer',
-    initials: 'NS',
-    bio: 'One line on what they lead at Spectra.'
+    name: 'Jared Cheang',
+    role: 'Founder & Technical Lead',
+    bio: 'AI Safety researcher exploring Human-AI Alignment and Control.',
+    imageSrc: '/images/team/jared.jpg',
+    linkedin: 'https://linkedin.com/in/username',
   },
   {
-    name: 'Name Surname',
-    role: 'Programs Lead',
-    initials: 'NS',
-    bio: 'One line on what they lead at Spectra.'
+    name: 'Selene Daswani',
+    role: 'Events & Operations',
+    bio: 'Systems engineer passionate about open-source ML infrastructure.',
+    imageSrc: '/images/team/selene.jpg',
+    linkedin: 'https://linkedin.com/in/username',
   },
   {
-    name: 'Name Surname',
-    role: 'Community Lead',
-    initials: 'NS',
-    bio: 'One line on what they lead at Spectra.'
-  }
+    name: 'Nigel Hee',
+    role: 'Events & Operations',
+    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    imageSrc: '/images/team/nigel.jpg',
+    linkedin: 'https://linkedin.com/in/username'
+  },
+  {
+    name: 'Iris Ng',
+    role: 'Events & Operations',
+    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    imageSrc: '/images/team/iris.jpg',
+    linkedin: 'https://linkedin.com/in/username'
+  },
+  {
+    name: 'Chanel Huang',
+    role: 'Liason & Community Engagement',
+    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    imageSrc: '/images/team/chanel.jpg',
+    linkedin: 'https://linkedin.com/in/username'
+  },
+  {
+    name: 'Audrey Tim',
+    role: 'Liason & Community Engagement',
+    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    imageSrc: '/images/team/audrey.jpg',
+    linkedin: 'https://linkedin.com/in/username'
+  },
 ];
 
 export const siteLinks = {

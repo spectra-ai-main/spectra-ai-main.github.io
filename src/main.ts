@@ -62,19 +62,48 @@ function renderGallery(): void {
     .join('');
 }
 
-function renderTeam(): void {
+export function renderTeam(): void {
   const container = document.getElementById('team-grid');
   if (!container) return;
 
+  if (!teamMembersData || teamMembersData.length === 0) {
+    container.innerHTML = '<p class="text-muted">Team details coming soon.</p>';
+    return;
+  }
+
   container.innerHTML = teamMembersData
-    .map(member => `
+    .map(
+      (member) => `
       <article class="card team-card reveal">
-        <div class="team-avatar" aria-hidden="true">${member.initials}</div>
-        <h3>${member.name}</h3>
-        <p class="team-role">${member.role}</p>
-        <p>${member.bio}</p>
+        <a 
+          href="${member.linkedin}" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="team-linkedin-top" 
+          aria-label="${member.name}'s LinkedIn Profile"
+        >
+          <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.76c1.4-2.59 7-2.78 7 2.48V19z"/>
+          </svg>
+        </a>
+
+        <div class="team-avatar-wrapper">
+          <img 
+            src="${member.imageSrc}" 
+            alt="${member.name}" 
+            loading="lazy" 
+          />
+        </div>
+        
+        <div class="team-info">
+          <h3>${member.name}</h3>
+          <p class="team-role">${member.role}</p>
+          <p class="team-bio">${member.bio}</p>
+        </div>
       </article>
-    `).join('');
+    `
+    )
+    .join('');
 }
 
 function initFooterYear(): void {
