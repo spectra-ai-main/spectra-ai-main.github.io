@@ -26,22 +26,22 @@ export const programsData: Program[] = [
 
 export const carouselSlidesData: CarouselSlide[] = [
   {
-    imageSrc: '/images/events/crossroad-chatters-fireside.jpg',
+    imageSrc: 'images/events/crossroad-chatters-fireside.jpg',
     title: 'Fireside Focus Group',
     description: 'Fireside style focus groups.'
   },
   {
-    imageSrc: '/images/events/paper-trail-anthropic.jpg',
+    imageSrc: 'images/events/paper-trail-anthropic.jpg',
     title: 'Paper Trail Anthropic',
     description: 'Working through research papers and blogs.'
   },
   {
-    imageSrc: '/images/events/paper-trail-deepseek.jpg',
+    imageSrc: 'images/events/paper-trail-deepseek.jpg',
     title: 'Paper Trail DeepSeek',
     description: 'Working through research papers and blogs.'
   },
   {
-    imageSrc: '/images/events/crossroad-chatters-02.jpg',
+    imageSrc: 'images/events/crossroad-chatters-02.jpg',
     title: 'Crossroad Chatters',
     description: 'Casual discussions on emerging Responsible AI topics and trends.'
   }
@@ -52,42 +52,42 @@ export const teamMembersData: TeamMember[] = [
     name: 'Jared Cheang',
     role: 'Founder & Technical Lead',
     bio: 'AI Safety Researcher exploring Human-AI Alignment and Control.',
-    imageSrc: '/images/team/jared.jpg',
+    imageSrc: 'images/team/jared.jpg',
     linkedin: 'https://www.linkedin.com/in/jared-cheang/',
   },
   {
     name: 'Selene Daswani',
     role: 'Events & Operations',
     bio: 'Decades of industry experience in AI and technology.',
-    imageSrc: '/images/team/selene.jpg',
+    imageSrc: 'images/team/selene.jpg',
     linkedin: 'https://www.linkedin.com/in/selenedaswani/',
   },
   {
     name: 'Nigel Hee',
     role: 'Events & Operations',
     bio: 'AI Policymaking and Governance Specialist.',
-    imageSrc: '/images/team/nigel.jpg',
+    imageSrc: 'images/team/nigel.jpg',
     linkedin: 'https://www.linkedin.com/in/nigelhee/'
   },
   {
     name: 'Iris Ng',
     role: 'Events & Operations',
     bio: 'Responsible AI advocate and community builder.',
-    imageSrc: '/images/team/iris.jpg',
+    imageSrc: 'images/team/iris.jpg',
     linkedin: 'https://www.linkedin.com/in/irisngct/'
   },
   {
     name: 'Chanel Huang',
     role: 'Liason & Community Engagement',
     bio: 'AI For Public Good advocate.',
-    imageSrc: '/images/team/chanel.jpg',
+    imageSrc: 'images/team/chanel.jpg',
     linkedin: 'https://www.linkedin.com/in/chanelxn/'
   },
     {
     name: 'Valerie Pang',
     role: 'AI Safety Liaison',
     bio: 'Program Manager of Singapore AI Safety Hub.',
-    imageSrc: '/images/team/valerie.jpg',
+    imageSrc: 'images/team/valerie.jpg',
     linkedin: 'https://www.linkedin.com/in/valeriepang/'
   },
 ];
