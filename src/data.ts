@@ -26,22 +26,22 @@ export const programsData: Program[] = [
 
 export const carouselSlidesData: CarouselSlide[] = [
   {
-    imageSrc: '$/images/crossroad-chatters-fireside.jpg',
+    imageSrc: '/images/crossroad-chatters-fireside.jpg',
     title: 'Fireside Focus Group',
     description: 'Fireside style focus groups.'
   },
   {
-    imageSrc: '$/images/paper-trail-anthropic.jpg',
+    imageSrc: '/images/paper-trail-anthropic.jpg',
     title: 'Paper Trail Anthropic',
     description: 'Working through research papers and blogs.'
   },
   {
-    imageSrc: '$/images/paper-trail-deepseek.jpg',
+    imageSrc: '/images/paper-trail-deepseek.jpg',
     title: 'Paper Trail DeepSeek',
     description: 'Working through research papers and blogs.'
   },
   {
-    imageSrc: '$/images/crossroad-chatters-02.jpg',
+    imageSrc: '/images/crossroad-chatters-02.jpg',
     title: 'Crossroad Chatters',
     description: 'Casual discussions on emerging Responsible AI topics and trends.'
   }
