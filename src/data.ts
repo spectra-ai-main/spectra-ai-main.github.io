@@ -83,7 +83,7 @@ export const teamMembersData: TeamMember[] = [
     imageSrc: 'images/team/chanel.jpg',
     linkedin: 'https://www.linkedin.com/in/chanelxn/'
   },
-    {
+  {
     name: 'Valerie Pang',
     role: 'AI Safety Liaison',
     bio: 'Program Manager of Singapore AI Safety Hub.',
