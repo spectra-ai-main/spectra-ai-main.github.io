@@ -25,9 +25,21 @@ function renderPrograms(): void {
 function renderGallery(): void {
   const track = document.getElementById('carousel-track');
   const indicators = document.getElementById('carousel-indicators');
-  if (!track || !indicators) return;
 
-  const total = carouselSlidesData.length;
+  console.log('[DEBUG] carouselSlidesData:', carouselSlidesData);
+  console.log('[DEBUG] carousel-track element:', track);
+
+  if (!track) {
+    console.error('[ERROR] Could not find #carousel-track in the DOM!');
+    return;
+  }
+
+  if (!carouselSlidesData || carouselSlidesData.length === 0) {
+    console.error('[ERROR] carouselSlidesData is empty or undefined!');
+    return;
+  }
+
+  if (!track || !indicators) return;
 
   track.innerHTML = carouselSlidesData
     .map((slide) => `
@@ -43,6 +55,8 @@ function renderGallery(): void {
         </div>
       </article>
     `).join('');
+
+    console.log('[DEBUG] Successfully rendered slides into DOM!');
 }
 
 function renderTeam(): void {
