@@ -51,53 +51,53 @@ export const teamMembersData: TeamMember[] = [
   {
     name: 'Jared Cheang',
     role: 'Founder & Technical Lead',
-    bio: 'AI Safety researcher exploring Human-AI Alignment and Control.',
+    bio: 'AI Safety Researcher exploring Human-AI Alignment and Control.',
     imageSrc: '/images/team/jared.jpg',
-    linkedin: 'https://linkedin.com/in/username',
+    linkedin: 'https://www.linkedin.com/in/jared-cheang/',
   },
   {
     name: 'Selene Daswani',
     role: 'Events & Operations',
-    bio: 'Systems engineer passionate about open-source ML infrastructure.',
+    bio: 'Decades of industry experience in AI and technology.',
     imageSrc: '/images/team/selene.jpg',
-    linkedin: 'https://linkedin.com/in/username',
+    linkedin: 'https://www.linkedin.com/in/selenedaswani/',
   },
   {
     name: 'Nigel Hee',
     role: 'Events & Operations',
-    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    bio: 'AI Policymaking and Governance Specialist.',
     imageSrc: '/images/team/nigel.jpg',
-    linkedin: 'https://linkedin.com/in/username'
+    linkedin: 'https://www.linkedin.com/in/nigelhee/'
   },
   {
     name: 'Iris Ng',
     role: 'Events & Operations',
-    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    bio: 'Responsible AI advocate and community builder.',
     imageSrc: '/images/team/iris.jpg',
-    linkedin: 'https://linkedin.com/in/username'
+    linkedin: 'https://www.linkedin.com/in/irisngct/'
   },
   {
     name: 'Chanel Huang',
     role: 'Liason & Community Engagement',
-    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    bio: 'AI For Public Good advocate.',
     imageSrc: '/images/team/chanel.jpg',
-    linkedin: 'https://linkedin.com/in/username'
+    linkedin: 'https://www.linkedin.com/in/chanelxn/'
   },
   {
     name: 'Audrey Tim',
     role: 'Liason & Community Engagement',
-    bio: 'Host for Paper Trail deep dives and grassroots meetups.',
+    bio: 'AI For Public Good advocate.',
     imageSrc: '/images/team/audrey.jpg',
-    linkedin: 'https://linkedin.com/in/username'
+    linkedin: 'https://www.linkedin.com/in/audreytmh/'
   },
 ];
 
 export const siteLinks = {
   luma: 'https://luma.com/spectra-ai-sg',
   lumaEmbed: 'https://luma.com/embed/calendar/cal-YBfMq4YAgqPzHfL/events',
-  telegram: 'https://t.me/spectra_ai_sg', // Replace with your real Telegram group link
-  linkedin: 'https://www.linkedin.com/company/spectra-ai', // Replace with your real LinkedIn page link
-  airtableEmbed: 'https://airtable.com/embed/appXXXXXXXXXXXXXX/shrXXXXXXXXXXXXXX?backgroundColor=blue&viewControls=on' // Replace with your real Airtable embed link
+  telegram: 'https://t.me/+udfnvmT6o2s1ZGRl', 
+  linkedin: 'https://www.linkedin.com/company/spectra-ai-org/', 
+  // airtableEmbed: 'https://airtable.com/embed/appXXXXXXXXXXXXXX/shrXXXXXXXXXXXXXX?backgroundColor=blue&viewControls=on' // Replace with your real Airtable embed link
 } as const;
 
 export type SiteLinkKey = keyof typeof siteLinks;
