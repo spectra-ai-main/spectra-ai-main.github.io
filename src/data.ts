@@ -83,13 +83,6 @@ export const teamMembersData: TeamMember[] = [
     imageSrc: '/images/team/chanel.jpg',
     linkedin: 'https://www.linkedin.com/in/chanelxn/'
   },
-  // {
-  //   name: 'Audrey Tim',
-  //   role: 'Liason & Community Engagement',
-  //   bio: 'AI For Public Good advocate.',
-  //   imageSrc: '/images/team/audrey.jpg',
-  //   linkedin: 'https://www.linkedin.com/in/audreytmh/'
-  // },
     {
     name: 'Valerie Pang',
     role: 'AI Safety Liaison',
@@ -104,7 +97,6 @@ export const siteLinks = {
   lumaEmbed: 'https://luma.com/embed/calendar/cal-YBfMq4YAgqPzHfL/events',
   telegram: 'https://t.me/+udfnvmT6o2s1ZGRl', 
   linkedin: 'https://www.linkedin.com/company/spectra-ai-org/', 
-  // airtableEmbed: 'https://airtable.com/embed/appXXXXXXXXXXXXXX/shrXXXXXXXXXXXXXX?backgroundColor=blue&viewControls=on' // Replace with your real Airtable embed link
 } as const;
 
 export type SiteLinkKey = keyof typeof siteLinks;
