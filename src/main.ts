@@ -26,37 +26,40 @@ function renderGallery(): void {
   const track = document.getElementById('carousel-track');
   const indicators = document.getElementById('carousel-indicators');
 
-  console.log('[DEBUG] carouselSlidesData:', carouselSlidesData);
-  console.log('[DEBUG] carousel-track element:', track);
-
-  if (!track) {
-    console.error('[ERROR] Could not find #carousel-track in the DOM!');
-    return;
-  }
-
-  if (!carouselSlidesData || carouselSlidesData.length === 0) {
-    console.error('[ERROR] carouselSlidesData is empty or undefined!');
-    return;
-  }
-
   if (!track || !indicators) return;
+  if (!carouselSlidesData || carouselSlidesData.length === 0) return;
 
+  // 1. Render Slides
   track.innerHTML = carouselSlidesData
-    .map((slide) => `
-      <article class="carousel-slide" aria-roledescription="slide">
+    .map(
+      (slide) => `
+      <article class="carousel-slide">
         <div class="carousel-image-wrapper">
-          <img src="${slide.imageSrc}" 
-          alt="${slide.title}" 
-          loading="lazy">
+          <img src="${slide.imageSrc}" alt="${slide.title}" loading="lazy">
         </div>
         <div class="carousel-caption">
           <h3>${slide.title}</h3>
           <p>${slide.description}</p>
         </div>
       </article>
-    `).join('');
+    `
+    )
+    .join('');
 
-    console.log('[DEBUG] Successfully rendered slides into DOM!');
+  // 2. Render Indicator Dots
+  indicators.innerHTML = carouselSlidesData
+    .map(
+      (_, idx) => `
+      <button 
+        class="indicator ${idx === 0 ? 'active' : ''}" 
+        data-index="${idx}" 
+        aria-label="Go to slide ${idx + 1}"
+        aria-selected="${idx === 0 ? 'true' : 'false'}"
+        role="tab"
+      ></button>
+    `
+    )
+    .join('');
 }
 
 function renderTeam(): void {
