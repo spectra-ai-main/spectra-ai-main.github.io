@@ -83,12 +83,19 @@ export const teamMembersData: TeamMember[] = [
     imageSrc: '/images/team/chanel.jpg',
     linkedin: 'https://www.linkedin.com/in/chanelxn/'
   },
-  {
-    name: 'Audrey Tim',
-    role: 'Liason & Community Engagement',
-    bio: 'AI For Public Good advocate.',
-    imageSrc: '/images/team/audrey.jpg',
-    linkedin: 'https://www.linkedin.com/in/audreytmh/'
+  // {
+  //   name: 'Audrey Tim',
+  //   role: 'Liason & Community Engagement',
+  //   bio: 'AI For Public Good advocate.',
+  //   imageSrc: '/images/team/audrey.jpg',
+  //   linkedin: 'https://www.linkedin.com/in/audreytmh/'
+  // },
+    {
+    name: 'Valerie Pang',
+    role: 'AI Safety Liaison',
+    bio: 'Program Manager of Singapore AI Safety Hub.',
+    imageSrc: '/images/team/valerie.jpg',
+    linkedin: 'https://www.linkedin.com/in/valeriepang/'
   },
 ];
 
