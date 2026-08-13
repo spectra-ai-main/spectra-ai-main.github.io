@@ -124,6 +124,11 @@ a { color: inherit; text-decoration: none; }
   height: 22px;
   object-fit: contain;   /* Prevents icon stretching */
   flex-shrink: 0;
+
+  /* Circular Crop */
+  border-radius: 50%;      /* Turns the square box into a circle */
+  overflow: hidden;        /* Clips any content extending past the circular boundary */
+  object-fit: cover;       /* Fills the circle completely without leave empty gaps */
 }
 
 .site-nav {
