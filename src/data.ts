@@ -12,15 +12,15 @@ export const navItems: NavItem[] = [
 export const programsData: Program[] = [
   {
     title: 'Crossroad Chatters',
-    description: 'Small-group conversations on where AI is actually headed — from "is this doomsday or tomorrow\'s reality" to the questions nobody\'s resolved yet. Informal by design.'
+    description: 'Small group conversations on where AI is actually headed, from "is this doomsday or tomorrow\'s reality" to the questions nobody has resolved yet. Informal by design.'
   },
   {
     title: 'RAIx Series',
-    description: 'Responsible AI crossed with the fields it\'s reshaping. We started with education — more domains get added as the community picks them.'
+    description: 'Responsible AI crossed with the fields it is reshaping. We started with education, and more domains are added as the community chooses them.'
   },
   {
     title: 'Paper Trail',
-    description: 'A technical reading group working through AI safety papers and course material, session by session — for people who want to go deeper than a panel discussion.'
+    description: 'A technical reading group working through AI safety papers and course material, session by session, designed for people who want to go deeper than a panel discussion.'
   }
 ];
 
@@ -84,6 +84,13 @@ export const teamMembersData: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/chanelxn/'
   },
   {
+    name: 'Audrey Tim',
+    role: 'Liason & Community Engagement',
+    bio: 'AI For Public Good advocate.',
+    imageSrc: '/images/team/audrey.jpg',
+    linkedin: 'https://www.linkedin.com/in/audreytmh/'
+  },
+  {
     name: 'Valerie Pang',
     role: 'AI Safety Liaison',
     bio: 'Program Manager of Singapore AI Safety Hub.',
@@ -100,3 +107,42 @@ export const siteLinks = {
 } as const;
 
 export type SiteLinkKey = keyof typeof siteLinks;
+
+export interface GetInvolvedOption {
+  icon: string;
+  title: string;
+  description: string;
+  linkText: string;
+  href: string;
+}
+
+export const getInvolvedData: GetInvolvedOption[] = [
+  {
+    icon: '💡',
+    title: 'AI Researchers & Builders',
+    description: 'Collaborate on open AI safety research, evaluation benchmarks, and responsible ML tooling.',
+    linkText: 'Join research group',
+    href: '#join-research'
+  },
+  {
+    icon: '🤝',
+    title: 'Community Volunteers',
+    description: 'Help host meetups, organize workshops, and run community hackathons. All roles welcome.',
+    linkText: 'Join as volunteer',
+    href: '#volunteer'
+  },
+  {
+    icon: '🏛️',
+    title: 'Industry & Partners',
+    description: 'Embed responsible AI principles into your organization, sponsor events, or co-host sessions.',
+    linkText: 'Partner with us',
+    href: '#partner'
+  },
+  {
+    icon: '🎓',
+    title: 'Academic & Students',
+    description: 'Bring responsible AI discussions, paper reading groups, and technical demos to your campus.',
+    linkText: 'Explore campus initiatives',
+    href: '#students'
+  }
+];

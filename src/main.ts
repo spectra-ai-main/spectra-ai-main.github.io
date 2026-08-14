@@ -1,4 +1,4 @@
-import { navItems, programsData, carouselSlidesData, teamMembersData, siteLinks, SiteLinkKey } from './data';
+import { navItems, programsData, carouselSlidesData, teamMembersData, siteLinks, SiteLinkKey, getInvolvedData } from './data';
 
 function renderNav(containerId: string): void {
   const container = document.getElementById(containerId);
@@ -205,6 +205,34 @@ function bindSiteLinks(): void {
   });
 }
 
+export function renderGetInvolved(): void {
+  const container = document.getElementById('get-involved-grid');
+  if (!container) return;
+
+  if (!getInvolvedData || getInvolvedData.length === 0) {
+    container.innerHTML = '<p class="text-muted">Opportunities coming soon.</p>';
+    return;
+  }
+
+  container.innerHTML = getInvolvedData
+    .map(
+      (item) => `
+      <div class="get-involved-card reveal">
+        <div>
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+        </div>
+      </div>
+    `
+    )
+    .join('');
+}
+
+// Call inside your DOMContentLoaded or main initialization
+document.addEventListener('DOMContentLoaded', () => {
+  renderGetInvolved();
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   bindSiteLinks();
 
@@ -213,6 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderPrograms();
   renderGallery();
   renderTeam();
+  renderGetInvolved();
   initFooterYear();
   initCarousel();
 });
