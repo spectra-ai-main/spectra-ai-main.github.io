@@ -29,7 +29,7 @@ jobs:
           node-version: 24
 
       - name: Clean Install Dependencies
-        run: npm install
+        run: npm ci --force
 
       - name: Build Project
         run: npm run build
