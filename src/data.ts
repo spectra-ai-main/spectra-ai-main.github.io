@@ -104,6 +104,8 @@ export const siteLinks = {
   lumaEmbed: 'https://luma.com/embed/calendar/cal-YBfMq4YAgqPzHfL/events',
   telegram: 'https://t.me/+udfnvmT6o2s1ZGRl', 
   linkedin: 'https://www.linkedin.com/company/spectra-ai-org/', 
+  feedback: 'https://airtable.com/appqGTBO8KYpYdLME/pagKnci4i40BavfV6/form',
+  odysea: 'https://odysea-ai.org/'
 } as const;
 
 export type SiteLinkKey = keyof typeof siteLinks;

@@ -35,6 +35,16 @@
   --bg-elevated: var(--bg-surface);
   --bg-elevated-2: var(--bg-surface-hover);
 
+  /* Buttons */
+  --blue-deep: #1a3d7c;
+  --blue-mid: #2f5fb3;
+  --blue-bright: #3f7fe0;
+  --blue-soft: #6ea3f0;
+
+  /* Odysea gold — replace with your chosen hex */
+  --odysea-gold: #C9A227; 
+  --odysea-gold-hover: #b38f1f;
+
   /* Layout Spacing Controls */
   --wrap: 1120px;                     /* Max container width */
   --gutter-x: 24px;                   /* Left & Right side margins/padding */
@@ -212,6 +222,40 @@ a {
 .btn-ghost:hover, 
 .btn-ghost:focus-visible {
   border-color: var(--accent);
+}
+
+/* Ghost buttons (Telegram, Feedback) — now filled by default */
+.btn-ghost {
+  background-color: var(--blue-mid);
+  border: 1.5px solid var(--blue-mid);
+  color: #fff;
+}
+.btn-ghost:hover {
+  background-color: var(--blue-mid-hover);
+  border-color: var(--blue-mid-hover);
+}
+
+/* Outline buttons (footer/community section) — now filled by default */
+.btn-outline {
+  background-color: var(--blue-bright);
+  border: 1.5px solid var(--blue-bright);
+  color: #fff;
+}
+.btn-outline:hover {
+  background-color: var(--blue-bright-hover);
+  border-color: var(--blue-bright-hover);
+}
+
+/* Odysea — filled gold by default, darkens on hover */
+.btn-odysea {
+  background-color: var(--odysea-gold);
+  border: 1.5px solid var(--odysea-gold);
+  color: #1a1a1a;
+}
+.btn-odysea:hover {
+  background-color: var(--odysea-gold-hover);
+  border-color: var(--odysea-gold-hover);
+  color: #1a1a1a;
 }
 
 .btn-outline {
