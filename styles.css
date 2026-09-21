@@ -56,6 +56,10 @@
   --btn-secondary: var(--brand-navy);         /* white label: 12.0:1 */
   --btn-secondary-hover: #1D3F91;             /* white label: 9.7:1 */
 
+  /* Luma's own embed background (measured off the rendered embed). The events
+     card is painted this colour so the embed's scrollbar gutter is invisible. */
+  --luma-panel: #F8F8F8;
+
   /* Partner button — deliberately outside the RAIN·SG palette.
      Change these two if Odysea should follow the brand instead. */
   --odysea-gold: #C9A227;
@@ -642,17 +646,28 @@ a {
   color: var(--text-muted);
 }
 
-/* Target the Luma wrapper and iframe to span 100% width */
-.luma-embed,
-.luma-embed iframe,
-.luma-embed-frame {
-  width: 100%;
-  max-width: 100%;        /* Removes any width caps to stretch full-width */
-  height: 580px;           /* Proportional height boost to match the wider layout */
+/* Luma embed.
+   The wrapper is the card: it owns the border, the rounded corners and the
+   clipping. The iframe simply fills it, with no border or radius of its own.
+
+   Why the wrapper is painted #F8F8F8: Luma's page reserves a ~14px scrollbar
+   gutter on its right edge and leaves it transparent, so whatever sits behind
+   the iframe shows through as a strip. Painting the wrapper in Luma's own panel
+   colour makes that strip invisible while the scrollbar still works. If you
+   change the embed's theme in Luma, update --luma-panel to match. */
+.luma-embed-container {
+  background: var(--luma-panel);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: var(--bg-surface);
+  overflow: hidden;                   /* clips the iframe to the rounded corners */
+}
+
+.luma-embed-frame {
   display: block;
+  width: 100%;
+  height: 580px;                      /* raise this to show more events without inner scrolling */
+  border: 0;
+  background: transparent;            /* the wrapper colour shows through the gutter */
 }
 
 .embed-placeholder {
