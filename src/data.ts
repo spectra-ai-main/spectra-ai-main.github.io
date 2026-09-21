@@ -51,17 +51,17 @@ export const teamMembersData: TeamMember[] = [
   {
     name: 'Jared Cheang',
     role: 'Founder & Technical Lead',
-    bio: 'AI Safety Researcher exploring Human-AI Alignment and Control.',
+    bio: 'AI Safety Researcher in Human-AI Alignment and AI Control.',
     imageSrc: 'images/team/jared.jpg',
     linkedin: 'https://www.linkedin.com/in/jared-cheang/',
   },
-  {
-    name: 'Selene Daswani',
-    role: 'Events & Operations',
-    bio: 'Decades of industry experience in AI and technology.',
-    imageSrc: 'images/team/selene.jpg',
-    linkedin: 'https://www.linkedin.com/in/selenedaswani/',
-  },
+  // {
+  //   name: 'Selene Daswani',
+  //   role: 'Events & Operations',
+  //   bio: 'Decades of industry experience in AI and technology.',
+  //   imageSrc: 'images/team/selene.jpg',
+  //   linkedin: 'https://www.linkedin.com/in/selenedaswani/',
+  // },
   {
     name: 'Nigel Hee',
     role: 'Events & Operations',
