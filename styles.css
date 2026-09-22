@@ -457,6 +457,82 @@ a {
 }
 
 /* ==========================================================================
+   About (logo + short intro paragraph)
+   ========================================================================== */
+
+.about {
+  padding: calc(var(--section-spacing-y) * 0.6) 0;
+}
+
+.about-inner {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.about-mark {
+  flex: 0 0 auto;
+  width: 180px;
+  height: auto;
+}
+
+.about-copy {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.about-copy .eyebrow {
+  margin: 0 0 10px;
+}
+
+.about-text {
+   margin: 0;
+   color: var(--text-muted);
+   font-size: 1.05rem;
+   line-height: 1.65;
+ }
+
+.about-text + .about-text {
+  margin-top: 14px;
+}
+
+.about-text .highlight {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* "responsibility" — plain navy, no underline */
+.about-text .navy-word {
+  color: var(--brand-navy);
+  font-weight: 700;
+}
+
+/* "the human" — coral fill, no underline */
+.about-text .human-word {
+  color: var(--brand-coral);
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .about-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    padding: 2rem 1.5rem;
+  }
+
+  .about-mark {
+    width: 150px;
+  }
+}
+
+/* ==========================================================================
    6. Carousel Reel
    ========================================================================== */
 

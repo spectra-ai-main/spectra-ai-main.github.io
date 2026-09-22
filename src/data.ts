@@ -1,6 +1,7 @@
 import { NavItem, Program, CarouselSlide, TeamMember } from './types';
 
 export const navItems: NavItem[] = [
+  { label: 'About', href: '#about' },
   { label: 'Programs', href: '#programs' },
   { label: 'Events', href: '#events' },
   { label: 'Gallery', href: '#gallery' },
@@ -100,7 +101,7 @@ export const teamMembersData: TeamMember[] = [
 ];
 
 export const siteLinks = {
-  luma: 'https://luma.com/spectra-ai-sg',
+  luma: 'https://luma.com/rain-sg',
   lumaEmbed: 'https://luma.com/embed/calendar/cal-YBfMq4YAgqPzHfL/events',
   telegram: 'https://t.me/+udfnvmT6o2s1ZGRl', 
   linkedin: 'https://www.linkedin.com/company/spectra-ai-org/', 
